@@ -21,7 +21,7 @@ h2{
 
 #divmain2{
     display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 10vh 120vh 10vh;
     grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
     row-gap: 10px;
     column-gap: 10px;
@@ -32,7 +32,7 @@ h2{
 }
 #divmain3{
     display: grid;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 10vh 110vh 10vh;
     grid-template-columns: 99.7%;
     row-gap: 10px;
     column-gap: 10px;
@@ -43,6 +43,19 @@ h2{
 }
 main{
     grid-area: ma;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    background-color: aliceblue;
+    width: 17.5%;
+    height: 40%;
+    margin: 30px;
+    border-radius:10px;
+  
+
 }
 
 section{
@@ -63,16 +76,20 @@ color: aliceblue;
 font-size: 3.5rem;
 color: aliceblue;
 }
+
+
+
 img#logo{
 border-radius: 10px;
 width: 40px;
 margin: 9px;
 }
+
 img.animalpic{
     border-radius: 10px;
-    width: 250px;
+    width: 270px;
     margin: 9px;
-    }
+}
 
 
 header{
@@ -121,28 +138,36 @@ article#a1{
     grid-area: a1;
     background-color: white;
     border-radius:10px;
-padding: 10px;
+    padding: 10px;
 }
 article#a2{
     grid-area: a2;
     background-color: white;
     border-radius:10px;
+    padding: 10px;
 
 }
 article#a3{
     grid-area: a3;
     background-color: white;
     border-radius:10px;
+    padding: 10px;
 
 }
 article#a4{
     grid-area: a4;
     background-color: white;
     border-radius:10px;
+    padding: 10px;
 
 }
 
 p.white{
+    color: aliceblue;    
+}
+
+p.logotext{
     color: aliceblue;
  font-weight: 700;
+ font-size: 1.75rem;
 }
